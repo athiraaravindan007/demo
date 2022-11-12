@@ -1,0 +1,18 @@
+data sharing
+-----------------
+html---->view & ts---->component
+
+data binding
+-------------------
+1.one way binding
+
+  1.1.component to view
+      1.1.1.stringinterpolation     {{}}------->component to view
+      1.1.2. property binding       [property]="value"--------->component to view
+
+1.2view to component
+
+      1.2.1. event binding              (event name)="methodname()"
+      1.2.2. doller event binding       (event name)="methodname($event)"
+      1.2.3.event binding using
+      template reference variable       #variable_name
